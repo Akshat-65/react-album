@@ -1,5 +1,5 @@
-Check it out : https://akshat-album-collection.netlify.app/
 Description : It is an album collection app in which we are fetching Album from an API. You can also delete, update and add album to the album list. We have also used React Router in this App to make the app faster.
+Check it out : https://akshat-album-collection.netlify.app/
 
 # Getting Started with Create React App
 
