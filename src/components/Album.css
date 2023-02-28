@@ -1,0 +1,78 @@
+
+.album-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 16rem;
+    height: 17rem;
+    margin: 10px;
+    border: 1px solid #6b706d;
+    border-radius: 11px;
+    box-shadow: 0px 0px 2px 2px #9c9797;
+    transition: all 0.4s ease ;
+}
+
+.album-container:hover{
+    transform: scale(1.05);
+}
+
+.title{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 5px;
+    text-align: center;
+    height: 4rem;
+}
+
+.image{
+    width: 100%;
+    height: 10rem;
+}
+
+.update-delete{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+    color: #5b3434;
+}
+
+.update-delete button{
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid rgb(76 149 156);
+    border-radius: 11px;
+    color: rgb(21 82 112);
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    line-height: 1;
+    padding: 0.4rem 0.4rem 0.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.update-delete button:hover{
+    background: rgb(21 82 112);
+    color: white;
+    animation: rotate 0.3s ease-in-out 1 alternate;
+}
+
+@keyframes rotate{
+    0%{
+        transform:rotate(3deg);
+    }
+    25%{
+        transform:rotate(-3deg);
+    }
+    50%{
+        transform:rotate(3deg);
+    }
+    100%{
+        transform:rotate(-3deg);
+    }
+}
